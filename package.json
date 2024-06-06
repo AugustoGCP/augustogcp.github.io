@@ -9,7 +9,7 @@
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Augusto Pires",
   "license": "ISC",
@@ -18,6 +18,5 @@
     "express": "^4.19.2",
     "gh-pages": "^6.1.1",
     "nodemon": "^3.1.3"
-  },
-  ,
+  }
 }
